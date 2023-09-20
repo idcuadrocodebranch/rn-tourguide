@@ -244,6 +244,8 @@ export const TourGuideProvider = ({
           getCurrentStep,
           start,
           stop,
+          next,
+          prev,
           canStart,
           setTourKey,
         }}

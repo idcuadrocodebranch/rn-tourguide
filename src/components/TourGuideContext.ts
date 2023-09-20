@@ -18,6 +18,8 @@ export interface ITourGuideContext {
   getCurrentStep?(key: string): IStep | undefined
   start?(key: string, fromStep?: number): void
   stop?(key: string): void
+  next?(): void
+  prev?(): void
 }
 
 export const TourGuideContext = React.createContext<ITourGuideContext>({

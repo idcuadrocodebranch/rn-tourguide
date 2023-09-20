@@ -38,7 +38,7 @@ export default StyleSheet.create<IStyle>({
     zIndex: Z_INDEX - 1,
   },
   nonInteractionPlaceholder: {
-    backgroundColor: 'transparent',
+    backgroundColor: 'red',
     zIndex: Z_INDEX - 2,
   },
   tooltipText: {
